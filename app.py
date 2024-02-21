@@ -79,7 +79,7 @@ def order_tab():
     if pay == 'UPI APP':
         col1, col2, col3 = st.columns(3)
         with col2:
-            st.image('qrcode.jpg')
+            st.image('QRcode.png')
     if st.button('Submit'):
         st.write(':red[THANK YOU FOR YOUR PURCHASE!]:smile:')
         st.write('Your order is on its way.')
